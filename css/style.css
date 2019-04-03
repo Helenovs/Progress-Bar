@@ -1,0 +1,33 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: rgba(25, 25, 25, 0.6);
+  padding: 1em;
+  /* font-size: 140%; */
+}
+
+#divBarContainer{
+  width: auto;
+}
+
+#ProgressBar0, #ProgressBar1, #ProgressBar2, #ProgressBar3  {
+  width: 50%;
+  background-color: #ddd;
+  /* background-color: red; */
+  text-align: center;
+  margin: 20px auto;
+}
+
+#ProgressBarStatus0, #ProgressBarStatus1, #ProgressBarStatus2, #ProgressBarStatus3 {
+  width: 1%;
+  height: 35px;
+  background-color: #4CAF50;
+  line-height: 32px;
+  color: black;
+}
+input {
+  background-color: red;
+}
+.selectOption {
+  background-color: red;
+}
